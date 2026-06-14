@@ -1,0 +1,18 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Build and utility scripts",
+  "type": "module",
+  "scripts": {
+    "db:init": "tsx src/init-db.ts",
+    "db:seed": "tsx src/seed-db.ts"
+  },
+  "dependencies": {
+    "@lib/db": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0"
+  }
+}
